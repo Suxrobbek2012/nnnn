@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.header{
+    padding: 20px 0;
+    background-color: rgb(16, 18, 32);
+}
+.container{
+    min-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__left{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.header__link{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+.header__link::after{
+    background-image: url(./images/arrow.png);
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    content: "";
+    display: block;
+}
+
+.manu{
+    position: absolute;
+    width: 120px;
+    background-color: #232028;
+    box-shadow: 0px 0px 11px 0px #fff;
+    border-radius: 10px;
+    padding: 13px;
+    display: none;
+    flex-direction: column;
+    gap: 11px;
+    text-align: center;
+}
+.header__menu:hover .manu{
+    display: flex   ;
+}
+.menu__item{
+    /* width: 80px; */
+    background-color: #030303;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+}
+.menu__item:hover{
+    background-color: aqua;
+}
+.menu__link{
+    color: #fff;
+}
+.header__menu:hover .header__link::after{
+    transform: rotate(180deg);
+}
+.header__btn{
+    width: 175px;
+    background-color: palevioletred;
+    padding: 10px 0;
+    border: none;
+    border-radius: 20px;
+}
+.four{
+    width: 325px;
+    height: 532px;
+}
+.kkk{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 200px;
+}
+.kollll{
+    height: 1000px; 
+}
+.kollll{
+    background-color: rgb(2, 2, 45)
+}
+.ilo{
+   padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 323px;
+    height: 102px;
+}
+.mini{
+        width: 325px;
+        height: 240px;
+        background-color: #232028;
+        border-radius: 50px;
+}
